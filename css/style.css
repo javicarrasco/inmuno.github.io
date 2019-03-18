@@ -473,7 +473,7 @@ p::selection {
 .head_title p{
 	color: #81868e;
   font-weight: 300;
-  max-width: 42%;
+  max-width: 85%;
   margin: 0 auto;
   line-height: 25px;
 }
@@ -914,7 +914,6 @@ p::selection {
 .single_testimonial_img p{
   width: 55%;
   margin: 0 auto;
-  font-style: italic;
   margin-bottom: 30px;
 	color:#fff;
 
@@ -929,8 +928,8 @@ p::selection {
     margin-top: 25px;
 }
 .owl-theme .owl-controls .owl-page span {
-    background: red;
-    border: 1px solid red;
+    background: #351B9E;
+    border: 1px solid #351B9E;
 }
 /* Blog Section */
 .main_blog{}
