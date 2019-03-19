@@ -393,6 +393,46 @@ p::selection {
 	-o-transform: scale(1.1);
 }
 
+/* imagenes superpuestas */
+.contenedor {
+  position: relative;
+  width: 100%;
+  max-width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagen {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sobreponer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: transparent;
+}
+
+.contenedor:hover .sobreponer {
+  opacity: 1;
+}
+
+
+
+
+
+
+
 /* navbar section */
 .menu-scroll {
   padding-top: 0px;
@@ -856,8 +896,8 @@ p::selection {
 
 .single_team p{
 	font-weight: 300;
-	font-size:15px;
-	line-height: 20px;
+	font-size:18px;
+	line-height: 21px;
 	}
 .single_team{
 	margin-top:50px;
