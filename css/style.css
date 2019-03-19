@@ -255,6 +255,19 @@ p::selection {
   background: #21CFAC;
   color: #f2f2f2;
 }
+.decorado{
+	background: #21CFAC;
+  color: #f2f2f2;
+}
+.negrita{
+	color: #21CFAC;
+	font-weight: 800;
+}
+.cursiva{
+	color: #21CFAC;
+	font-weight: 400;
+	font-style: italic;
+}
 .btn {
 	border: 1px solid #3c3c3c;
 	display: inline-block;
@@ -640,7 +653,7 @@ p::selection {
 	width:100%;
 }
 .single_featured:hover .featured_overlay {
-	opacity:1;
+	opacity: 1;
 }
 .featured_overlay {
   position: absolute;
@@ -656,7 +669,7 @@ p::selection {
 .overlay_content{
 	text-align: center;
   margin: 21% auto;
-	color:#fff;
+	color:#f2f2f2;
 }
 
 /* service Section */
