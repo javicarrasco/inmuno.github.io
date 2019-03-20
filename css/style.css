@@ -259,14 +259,31 @@ p::selection {
 	background: #21CFAC;
   color: #f2f2f2;
 }
+.decoradoBLUE{
+	background: #351B9E;
+  color: #f2f2f2;
+}
 .negrita{
 	color: #21CFAC;
+	font-weight: 800;
+}
+.negritaBLUE{
+	color: #351B9E;
 	font-weight: 800;
 }
 .cursiva{
 	color: #21CFAC;
 	font-weight: 400;
 	font-style: italic;
+}
+.piefoto{
+	color: #21CFAC;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+	max-width: 700px;
+
 }
 .btn {
 	border: 1px solid #3c3c3c;
@@ -426,8 +443,6 @@ p::selection {
 .contenedor:hover .sobreponer {
   opacity: 1;
 }
-
-
 
 
 
@@ -784,7 +799,11 @@ p::selection {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.main_franja_content p{
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
 /* mixitup section */
 
 
@@ -887,41 +906,41 @@ p::selection {
 	outline: none;
 }
 
-/* Team Section */
+/* texto Section */
 
-.team{
+.texto{
 	padding:80px 0px;
 }
-.main_team_content{}
+.main_texto_content{}
 
-.single_team p{
+.single_texto p{
 	font-weight: 300;
 	font-size:18px;
 	line-height: 21px;
 	}
-.single_team{
+.single_texto{
 	margin-top:50px;
 }
-.single_team_img{
+.single_texto_img{
 	position:relative;
 }
-.single_team_img img{
-	width:100%;
+.single_texto_img img{
+	width: auto;
 }
-.single_team_img:hover .single_team_overlay{
+.single_texto_img:hover .single_texto_overlay{
 	opacity:1;
 }
-.single_team_name{}
-.single_team_name h4{
+.single_texto_name{}
+.single_texto_name h4{
 	font-size:19px;
 	font-weight:500;
 }
-.single_team_name p{
+.single_texto_name p{
 	font-size: 12px;
 	font-weight: 300;
 }
 
-.single_team_overlay{
+.single_texto_overlay{
 	position:absolute;
 	background: #21CFAC;
 	width: 90%;
@@ -931,13 +950,13 @@ p::selection {
 	opacity: 0;
 	transition: .6s;
 }
-.single_team_overlay p{
+.single_texto_overlay p{
 	color:#fff;
 }
-.single_team_overlay a{
+.single_texto_overlay a{
 	margin-left:5px;
 }
-.single_team_overlay a i{
+.single_texto_overlay a i{
     border: 2px solid #fff;
     color: #fff;
     font-size: 20px;
@@ -1031,74 +1050,6 @@ p::selection {
 	margin-right:10px;
 }
 
-/* Pricing Section */
-
-.choose_single_pricing_text{
-	text-align:center;
-	margin-top:50px;
-}
-.proffetional_price{
-	box-shadow:0px 3px 13px 2px rgba(0, 0, 0, 0.1);
-}
-.choose_single_pricing_text h3{
-    background: #21CFAC;
-    color: #fff;
-    margin: 0;
-    padding: 10px 20px;
-}
-.choose_pricing_text{
-	padding:20px 40px;
-}
-.choose_pricing_text p.price{
-	font-size:30px;
-	font-weight:500;
-	color:#21CFAC;
-	margin-top:30px;
-	text-transform:uppercase;
-}
-.choose_pricing_text p span{
-	color:#666;
-	font-size:14px;
-	font-weight:300;
-}
-
-.choose_pricing_text ul li{
-	line-height: 45px;
-    border-bottom: 1px solid #ddd;
-    height: 45px;
-}
-
-.choose_pricing_text a{
-	margin-top:30px;
-}
-
-/* contact section */
-.contact{
-	padding:100px 0px;
-}
-.messsage_contant{
-	padding-top:60px;
-}
-
-.single_message_right{
-	padding:20px;
-}
-.single_message_right p{
-	margin-top:30px;
-}
-.single_message_right p span{
-    display: block;
-    margin-left: 40px;
-    margin-top: 10px;
-}
-.single_message_right p i{
-	color: #21CFAC;
-    margin-right: 20px;
-    font-size: 25px;
-}
-.messsage_contant .single_message_left .btn-lg{
-	width:40%;
-}
 
 /* Footer Section */
 
@@ -1155,3 +1106,33 @@ p::selection {
 	margin-left: -6px;
 	text-decoration: none;
 }
+
+/* tabla */
+.tabla{
+	padding:80px 0px;
+}
+.vikhi-tabla {
+  border-collapse: collapse;
+  width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vikhi-tabla td, .vikhi-tabla th {
+  border: 0px solid #ddd;
+  padding: 5px;
+}
+.vikhi-tabla th {
+  background-color: #351B9E;
+	color: #f2f2f2;
+}
+.vikhi-tabla p {
+	font-size: 14px;
+}
+.tabla-borde {
+  border-bottom: 1px solid #D3D3D3;
+}
+
+
+.vikhi-tabla tr:nth-child(even){background-color: #fff;}
+
+.vikhi-tabla tr:hover {background-color: #ddd;}
