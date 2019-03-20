@@ -3,13 +3,13 @@
 
 @media (min-width:992px) and (max-width:1199px) {
 
-.single_team_img img{
-	width:100%;
+.single_texto_img img{
+	width: auto;
 }
 
-	
-	
-	
+
+
+
 }
 
 /* Tabe Screen Media */
@@ -18,7 +18,7 @@
 
 
 .sinle_features {
-    padding: 50px 0px;
+  padding: 50px 0px;
 	width: 60%;
 	margin:0 auto;
 }
@@ -30,14 +30,14 @@
 .main_steps_content:after{
    display:none;
 }
-	
-	
+
+
 }
 
 /* Mobile Phone Screen Media */
 
 @media (max-width: 768px){
-	
+
 .single_service {
     color: #000;
     margin-top: 5%;
@@ -69,7 +69,7 @@
 .main_steps_content:after{
    display:none;
 }
-	
-	
-	
+
+
+
 }
