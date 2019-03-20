@@ -217,6 +217,7 @@ p{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
 	line-height: 29px;
+	text-align: justify;
 }
 a{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -263,6 +264,17 @@ p::selection {
 	background: #351B9E;
   color: #f2f2f2;
 }
+.centrado{
+	margin-left: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.izquierda{
+	text-align: left;
+}
+.turquesa{
+	color: #21CFAC;
+	}
 .negrita{
 	color: #21CFAC;
 	font-weight: 800;
@@ -589,7 +601,7 @@ p::selection {
 /* counterUp section */
 
 .counterUp{
-	background:url(../images/bannerbg.jpg) no-repeat center center fixed;
+	background-image: linear-gradient(to bottom left, #21CFAC, #351B9E);
 	background-size: cover;
 }
 .counter_overlay{
@@ -705,7 +717,7 @@ p::selection {
 	position:relative;
 }
 .single_featured img{
-	width:100%;
+	width: 100%;
 }
 .single_featured:hover .featured_overlay {
 	opacity: 1;
@@ -715,10 +727,10 @@ p::selection {
   left: 0%;
   top: 0%;
   width: 100%;
-  height: 100%;
+  height: 99%;
 	opacity: 0;
 	transition: .6s;
-	box-shadow: inset 0 0 15px 5px #351B9E;
+	box-shadow: inset 0 0 15px 0 #351B9E;
 	background: #21CFAC;
 }
 .overlay_content{
@@ -970,7 +982,7 @@ p::selection {
 
 /* testimonial section */
 .testimonial{
-	background: url(../images/testbg.jpg) no-repeat top center;
+	background-image: linear-gradient(to bottom left, #21CFAC, #351B9E);
 	background-size: cover;
 }
 .testimonial .parrafo h2{
@@ -1127,6 +1139,7 @@ p::selection {
 }
 .vikhi-tabla p {
 	font-size: 14px;
+	text-align: left;
 }
 .tabla-borde {
   border-bottom: 1px solid #D3D3D3;
