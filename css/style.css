@@ -54,6 +54,7 @@ MORADO PRIMARIO= #351B9E
 VERDE constraste= #21CFAC
 NEGRO= #1A1A1A
 gris claro= ##f2f2f2
+AZUL nuevo= #3747a6
 AZUL claro= #3B86FF
 rojo= #F53158
 *
@@ -168,6 +169,7 @@ h2 {
 	line-height: 38px;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 
 h3 {
@@ -652,7 +654,7 @@ p::selection {
 }
 .counter_overlay{
 	padding:100px 0px;
-	background-color: rgba(245, 49, 88, .3);
+	background-color: rgba(245, 49, 88, .0);
 	color: #fff;
 }
 .counter_overlay p{
@@ -1187,8 +1189,10 @@ p::selection {
 	color: #f2f2f2;
 }
 .vikhi-tabla p {
-	font-size: 14px;
 	text-align: left;
+}
+.vikhi-tabla tr th p{
+	color: #f2f2f2;
 }
 .tabla-borde {
   border-bottom: 1px solid #D3D3D3;
@@ -1198,3 +1202,29 @@ p::selection {
 .vikhi-tabla tr:nth-child(even){background-color: #fff;}
 
 .vikhi-tabla tr:hover {background-color: #ddd;}
+
+.vikhi-tablaSM {
+  border-collapse: collapse;
+  width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.vikhi-tablaSM td, .vikhi-tablaSM th {
+  border: 0px solid #ddd;
+  padding: 5px;
+}
+.vikhi-tablaSM th {
+  background-color: #351B9E;
+	color: #f2f2f2;
+}
+.vikhi-tablaSM p {
+	text-align: left;
+	font-size: 14px;
+}
+.vikhi-tablaSM tr th p{
+	color: #f2f2f2;
+}
+.vikhi-tablaSM tr:nth-child(even){background-color: #fff;}
+
+.vikhi-tablaSM tr:hover {background-color: #ddd;}
