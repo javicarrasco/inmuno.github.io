@@ -1059,6 +1059,7 @@ p::selection {
 .single_testimonial_img p{
   width: 55%;
   margin: 0 auto;
+	text-align: center;
   margin-bottom: 30px;
 	color:#fff;
 
