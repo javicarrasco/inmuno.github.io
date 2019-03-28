@@ -18,6 +18,9 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet">
+
+
+
 </head>
 <body>
 
@@ -206,18 +209,50 @@
 							<p><span class="negrita">•</span> No se ha asociado con la línea de tratamiento.</p>
 							<br>
 							<p><span class="negrita">•</span> Respuesta al tratamiento: en general, la respuesta al tratamiento no se ha asociado con una mayor tasa de neumonitis. En grandes cohortes de pacientes tratados con antiPD1 y antiPDL1, la mayoría de los pacientes con neumonitis se han clasificado como largos respondedores (61%), sin embargo el significado de este hecho no queda claro.</p>
-							<br>
+							<br><br><br><br>
+
+
+
 							<div class="marcoOSCURO wow fadeIn">
+
+							<form>
+							<br><br><br>
 							<h2>¿Qué deberíamos hacer en este momento?</h2>
-							<br>
-							<p><span class="negrita">•</span> Ni idea, lo derivaría a Neumología</p>
-							<br>
-							<p><span class="negrita">•</span> Lo más probable es que sea una neumonía. Antibioticoterapia y control radiológico en 1 semana</p>
-							<br>
-							<p><span class="negrita">•</span> Seguro que es una neumonitis por Nivolumab, pero no es grave. Pauta de corticoides y control radiológico</p>
-							<br>
-							<p><span class="negrita">•</span> Ante la posibilidad de los 3 diagnósticos, parar el Nivolumab, iniciar corticoterapia y antibioticoterapia. Solicitar una fibrobroncoscopia para disponer de más datos</p>
+							<br><br>
+							<p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p4"> Ni idea, lo derivaría a Neumología</p>
+							<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p2"> Lo más probable es que sea una neumonía. Antibioticoterapia y control radiológico en 1 semana</p>
+							<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p3"> Seguro que es una neumonitis por Nivolumab, pero no es grave. Pauta de corticoides y control radiológico</p>
+							<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p1"> Ante la posibilidad de los diferentes diagnósticos, parar el Nivolumab, iniciar corticoterapia y antibioticoterapia. Solicitar una fibrobroncoscopia para disponer de más datos</p>
+							</form>
+
+
+							<div class="pregunta wow fadeIn" data-wow-duration="1s">
+								<a href="#"><img onclick="resultado();return false;" src="images/profesora.png" alt="" height="90px"></a>
 							</div>
+
+
+
+
+
+
+
+								<div id="flotante" style="display:none;">
+									<br><br>
+									<p>Correcto + feedback</p>
+
+								</div>
+
+								<div id="flotanteIncorrecto" style="display:none;">
+									<br><br>
+									<p>Incorrecto + feedback</p>
+
+								</div>
+
+
+							</div>
+
+
+
 
 						</div>
 					</div>
@@ -234,6 +269,11 @@
 					<h2>¿Cómo definimos la toxicidad pulmonar?</h2>
 					<br>
 					<p>Los grados de toxicidad pulmonar están definidos según los  Common Terminology Criteria for Adverse Events (CTCAE), Version 4.0 (CTCAE v4)</p>
+
+
+
+
+
 
 				</div>
 			</div>
@@ -424,6 +464,7 @@
 
 	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
 
+	<script type="text/javascript" src="js/test.js"></script>
 
 
 
