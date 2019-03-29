@@ -265,6 +265,8 @@
 							<br>
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Diagnosticado de un carcinoma escamoso de lengua izquierda cT3N2M0 tratado con cirugía mediante una hemimandibulectomía izquierda y vaciamiento ganglionar bilateral. Por criterios de alto riesgo post-quirúrgico (extensión extracapsular en un ganglio del nivel II izquierdo) completó tratamiento adyuvante con quimiorradioterapia según esquema cisplatino 100mg/m2 de administración trisemanal (DT 60Gy). Siguió  controles posteriores.Progresión local y regional irresecable y no re-irradiable a los 5 meses del tratamiento adyuvante. Por lo que inicia Nivolumab a dosis de 3mg/kg cada 2 semanas (dentro ensayo clínico). Como mejor respuesta presenta respuesta parcial de enfermedad.</p>
 							<br><br>
+							<img src="images/medicinas.png" alt="" height="40px">
+							<br>
 							<p><span class="negrita">3 meses tras el inicio del Nivolumab:</span></p>
 							<br>
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Paciente estable hemodinámicamente, afebril.</p>
@@ -272,19 +274,40 @@
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Prurito con rash maculo-papular a nivel extremidades superiores (ASC < 10%)</p>
 							<br><br>
 
+
+
 							<div class="marcoOSCURO wow fadeIn">
-								<br>
-							<img src="images/medicinas.png" alt="" height="40px">
 
-							<br><br>
+							<form>
+							<br><br><br>
 							<h2>¿Qué grado de rash le asignarías a este paciente? ¿Cuál sería tu manejo?</h2>
-							<br>
-							<br>
-							<p><span class="negrita">•</span> Se trata de un rash grado 1 (localizado en extremidades superiores en < 10% de ASC), por lo que no requirió interrupción del fármaco. Tratamiento sintomático incluyó: Antipruriginosos orales (antihistamínicos como Difenidramina o Hidroxicina), y tópicos (a base de compresas frías, compresas impregnadas con leche de avena) y tratamiento tópico con cremas a base de urea.</p>
-							<p><span class="negrita">•</span> A pesar del tratamiento, el paciente no mejoró por lo que se trató como un GRADO 2, siendo evaluado por un dermatólogo y parando el tratamiento de Nivolumab.</p>
-							<p><span class="negrita">•</span> Al tratamiento inicial se le añadió crema betametasona 0.1% (crema de media potencia corticoide), con una mejora clínica  los 3 días. Por lo que no fue necesario iniciar corticoterapia vía oral. Una vez resuelto el episodio, el paciente reinició Nivolumab.</p>
+							<br><br>
+							<p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p1"> Se trata de un rash GRADO 1 (localizado en extremidades superiores en < 10% de ASC), por lo que no requirió interrupción del fármaco. Tratamiento sintomático incluyó: Antipruriginosos orales (antihistamínicos como Difenidramina o Hidroxicina), y tópicos (a base de compresas frías, compresas impregnadas con leche de avena) y tratamiento tópico con cremas a base de urea.</p>
+							<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p2"> A pesar del tratamiento, el paciente no mejoró por lo que se trató como un GRADO 2, siendo evaluado por un dermatólogo y parando el tratamiento de Nivolumab.</p>
+							<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p3"> Al tratamiento inicial se le añadió crema betametasona 0.1% (crema de media potencia corticoide), con una mejora clínica  los 3 días. Por lo que no fue necesario iniciar corticoterapia vía oral. Una vez resuelto el episodio, el paciente reinició Nivolumab.</p>
+							</form>
 
-						</div>
+
+							<div class="pregunta wow fadeIn" data-wow-duration="1s">
+								<a href="#"><img onclick="resultado();return false;" src="images/profesora.png" alt="" height="90px"></a>
+							</div>
+
+
+								<div id="flotante" style="display:none;">
+									<br><br>
+									<h2>¡Correcto! Se trata de un rash GRADO 1</h2>
+
+								</div>
+								<div id="flotanteIncorrecto" style="display:none;">
+									<br><br>
+									<h2>No es correcto. Inténtalo de nuevo :)</h2>
+
+								</div>
+
+
+							</div>
+
+
 
 							<br>
 
@@ -423,6 +446,7 @@
 
 	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
 
+	<script type="text/javascript" src="js/test.js"></script>
 
 
 

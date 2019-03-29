@@ -135,6 +135,8 @@
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Actualmente en curso de tratamiento con Nivolumab 3 mg/kg IV cada 14 dias</p>
 							<br>
 							<br>
+							<img src="images/medicinas.png" alt="" height="40px">
+							<br>
 							<p><span class="negrita">Semana 7 tratamiento:</span></p>
 							<br>
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Elevación AST/ALT 1,5 veces Límite Superior de la Normalidad (LSN), Bilirrubina normal</p>
@@ -204,6 +206,7 @@
 	</section>
 
 
+
 	<section class="counterUp">
 		<div class="counter_overlay">
 			<div class="container">
@@ -211,20 +214,59 @@
 				<div class="main_counter_content text-center">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 
+
+
+
 					<div class="marcoOSCURO wow fadeIn">
+
+					<form>
+					<br><br><br>
 					<h2>Ante la posibilidad de toxicidad hepática grado 1 a Nivolumab, ¿qué actitud te parece la más correcta?</h2>
 					<br>
-					<p><span class="negrita">•</span>	Pararía el Nivolumab y realizaría control analítico</p>
-					<br>
-					<p><span class="negrita">•</span>	Iniciaría corticoterapia sin parar el Nivolumab y realizaría control analítico</p>
-					<br>
-					<p><span class="negrita">•</span>	Es una toxicidad grado 1, por lo que continuaría Nivolumab y realizaría control analítico</p>
-					<br>
-					<p><span class="negrita">•</span>	Descartaría otras causas de alteración de la función hepática y lo monitorizaría estrictamente sin parar el Nivolumab</p>
-					<br>
+					<p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p2"> Pararía el Nivolumab y realizaría control analítico.</p>
+					<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p3"> Iniciaría corticoterapia sin parar el Nivolumab y realizaría control analítico.</p>
+					<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p4"> Es una toxicidad grado 1, por lo que continuaría Nivolumab y realizaría control analítico.</p>
+					<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p1"> Descartaría otras causas de alteración de la función hepática y lo monitorizaría estrictamente sin parar el Nivolumab.</p>
+
+					</form>
+
+
+					<div class="pregunta wow fadeIn" data-wow-duration="1s">
+						<a href="#"><img onclick="resultado();return false;" src="images/profesora.png" alt="" height="90px"></a>
 					</div>
-					<br>
-					<p>Ante la presencia de una función hepática alterada en un paciente en tratamiento con inmunoterapia, siempre nos tenemos que plantear esta posibilidad, pero no debemos olvidar que es un diagnóstico de exclusión, y que debemos realizar el diagnóstico diferencial con otras patologías (Champiat Ann Oncol 2016).</p>
+
+
+						<div id="flotante" style="display:none;">
+
+
+							<br><br><h2>¡Correcto!</h2>
+							<br>
+							<h2>La decisión terapéutica acertada sería<span class="negrita">:</span></h2>
+							<br>
+							<br>
+							<p><span class="negrita">•</span> Ante la sospecha de una hepatotoxicidad grado 2, decidimos no administrar la dosis planificada de Nivolumab, iniciamos prednisona 30 mg/12 horas y solicitamos un nuevo control analítico con serologías víricas y una ecografía abdominal.</p>
+							<br><p><span class="negrita">•</span> Las serologías fueron negativas y la ecografía hepática sólo detecta una esteatosis leve.</p>
+							<br><p><span class="negrita">•</span> Realizamos control analítico diario y la función hepática va mejorando progresivamente hasta normalización de la bilirrubina y transaminasas 1.5 veces el límite superior de la normalidad a los 7 días, motivo por el que reiniciamos Nivolumab y vamos disminuyendo progresivamente la dosis de prednisona hasta su retirada a las 5 semanas de tratamiento (30 mg/12 horas 1 semana- 30 mg/ 24 horas 10 días - 15 mg/24 horas 10 días-10 mg/24 horas 10 días y retirada).</p>
+							<br><p><span class="negrita">•</span> La función hepática se mantiene estable y el paciente continúa con Nivolumab hasta el momento, manteniendo una respuesta parcial estabilizada.</p>
+							<br>
+							<div class="separator"></div>
+
+							<p>Ante la presencia de una función hepática alterada en un paciente en tratamiento con inmunoterapia, siempre nos tenemos que plantear esta posibilidad, pero no debemos olvidar que es un diagnóstico de exclusión, y que debemos realizar el diagnóstico diferencial con otras patologías (Champiat Ann Oncol 2016).</p>
+
+
+
+						</div>
+						<div id="flotanteIncorrecto" style="display:none;">
+							<br><br>
+							<h2>No es correcto. Inténtalo de nuevo :)</h2>
+
+						</div>
+
+
+					</div>
+
+
+
 
 			</div>
 		</div>
@@ -329,16 +371,8 @@
 				<div class="row">
 					<div class="main_counter_content text-center">
 						<div class="col-md-12 col-sm-12 col-xs-12">
-							<img src="images/medicinas.png" alt="" height="40px">
 
-							<br><br><h2>Decisión terapéutica <span class="negrita">:</span></h2>
-							<br>
 
-							<p><span class="negrita">•</span> Ante la sospecha de una hepatotoxicidad grado 2, decidimos no administrar la dosis planificada de Nivolumab, iniciamos prednisona 30 mg/12 horas y solicitamos un nuevo control analítico con serologías víricas y una ecografía abdominal.</p>
-							<p><span class="negrita">•</span> Las serologías fueron negativas y la ecografía hepática sólo detecta una esteatosis leve.</p>
-							<p><span class="negrita">•</span> Realizamos control analítico diario y la función hepática va mejorando progresivamente hasta normalización de la bilirrubina y transaminasas 1.5 veces el límite superior de la normalidad a los 7 días, motivo por el que reiniciamos Nivolumab y vamos disminuyendo progresivamente la dosis de prednisona hasta su retirada a las 5 semanas de tratamiento (30 mg/12 horas 1 semana- 30 mg/ 24 horas 10 días - 15 mg/24 horas 10 días-10 mg/24 horas 10 días y retirada).</p>
-							<p><span class="negrita">•</span> La función hepática se mantiene estable y el paciente continúa con Nivolumab hasta el momento, manteniendo una respuesta parcial estabilizada.</p>
-							<br><br>
 							<div class="contorno wow fadeIn">
 								<h2>¿Era posible una mala evolución? ¿Qué habría que hacer en ese caso?</h2>
 								<br>
@@ -468,6 +502,7 @@
 
 	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
 
+	<script type="text/javascript" src="js/test.js"></script>
 
 
 

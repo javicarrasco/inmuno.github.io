@@ -277,6 +277,9 @@
 							<br>
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Ingreso del 22-25/05/18 por bronquitis aguda. TAC Mayo/18 con EE y sin signos de neumonitis (descartamos toxicidad pulmonar de la immunoterapia). En visita de C38 no administramos el tratamiento por nueva reaguditzación de bronquitis. Ingreso  del 4.06 fins el 7.06.18 per EPOC reaguditzado: Alta con ajuste de tratamiento. C38 administrado el 19.07.18 tras Stop prednisona.</p>
 							<br><br>
+
+							<img src="images/medicinas.png" alt="" height="40px">
+							<br>
 							<p><span class="negrita">Buena tolerancia con Nivolumab pero tras el último ciclo:</span></p>
 							<br>
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Paciente estable hemodinámicamente, afebril.</p>
@@ -285,17 +288,42 @@
 
 							<br><br>
 
+
+
+
 							<div class="marcoOSCURO wow fadeIn">
-								<br>
-							<img src="images/medicinas.png" alt="" height="40px">
 
-							<br><br>
+							<form>
+							<br><br><br>
 							<h2>¿Qué grado le asignarías a este paciente? ¿Y qué actuación crees que debemos seguir?</h2>
-							<br>
-							<br>
-							<p><span class="negrita">•</span> Se trata de una neuropatía sensitiva periférica grado 2. Completamos estudio con prueba de imagen para descartar compresión sobre raíz nerviosa y electromiograma con  alteración de señal por déficit sensitivo moderado. Requirió interrupción del tratamiento con Nivolumab y consultamos a neurología. Tras descartar todas las posibles causas, se orientó como toxicidad neurológica inmuno-mediada. Iniciamos Prednisolona 0.5 mg/kg/día vía oral con resolución del cuadro tras 15 días de tratamiento, por lo que iniciamos de forma progresiva el descenso de corticoterapia. El paciente pudo reanudar de nuevo el tratamiento con Nivolumab sin presentar más episodios.</p>
+							<br><br>
+							<p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p2"> GRADO 1</p>
+							<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p1"> GRADO 2</p>
+							<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p3"> GRADO 3</p>
+							</form>
 
-						</div>
+
+							<div class="pregunta wow fadeIn" data-wow-duration="1s">
+								<a href="#"><img onclick="resultado();return false;" src="images/profesora.png" alt="" height="90px"></a>
+							</div>
+
+
+								<div id="flotante" style="display:none;">
+									<br><br><h2>¡Correcto!</h2>
+									<br>
+									<p>Se trata de una neuropatía sensitiva periférica GRADO 2. Completamos estudio con prueba de imagen para descartar compresión sobre raíz nerviosa y electromiograma con  alteración de señal por déficit sensitivo moderado. Requirió interrupción del tratamiento con Nivolumab y consultamos a neurología. Tras descartar todas las posibles causas, se orientó como toxicidad neurológica inmuno-mediada. Iniciamos Prednisolona 0.5 mg/kg/día vía oral con resolución del cuadro tras 15 días de tratamiento, por lo que iniciamos de forma progresiva el descenso de corticoterapia. El paciente pudo reanudar de nuevo el tratamiento con Nivolumab sin presentar más episodios.</p>
+
+								</div>
+								<div id="flotanteIncorrecto" style="display:none;">
+									<br><br>
+									<h2>No es correcto. Inténtalo de nuevo :)</h2>
+
+								</div>
+
+
+							</div>
+
+
 
 							<br>
 
@@ -422,6 +450,7 @@
 
 	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
 
+	<script type="text/javascript" src="js/test.js"></script>
 
 
 

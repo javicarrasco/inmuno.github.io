@@ -143,6 +143,9 @@
 							<br>
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Noviembre 2018: Progresión ganglionar mediastínica. Inicia nivolumab 3 mg/kg cada 2 semanas.</p>
 							<br><br>
+
+							<img src="images/medicinas.png" alt="" height="40px">
+							<br>
 							<p><span class="negrita">Al 7º ciclo:</span></p>
 							<br>
 							<p class="izquierda">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp TSH basal normal</p>
@@ -232,24 +235,64 @@
 				<div class="main_counter_content text-center">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 
+
+
+
+
+
 					<div class="marcoOSCURO wow fadeIn">
+
+					<form>
+					<br><br><br>
 					<h2>Parece que nuestra paciente ha tenido una tiroiditis autoinmune por inmunoterapia que ha evolucionado a hipotiroidismo…</h2>
 					<br>
 					<h2>¿Cuáles serían los siguientes pasos?</h2>
 					<br><br>
-					<p><span class="negrita">•</span>	Monitorizaría las hormonas tiroideas y controlaría estrictamente.</p>
-					<br>
-					<p><span class="negrita">•</span>	Iniciaría levotiroxina, continuaría el Nivolumab y controlaría estrictamente.</p>
-					<br>
-					<p><span class="negrita">•</span>	Iniciaría Levotiroxina, pararía el Nivolumab y controlaría estrictamente.</p>
-					<br>
-					<p><span class="negrita">•</span>	Reintroduciría el Nivolumab al normalizarse la función tiroidea.</p>
-					<br>
-					<p><span class="negrita">•</span>	Iniciaría Levotiroxina, pararía el Nivolumab, iniciaría corticoterapia y controlaría estrictamente.</p>
-					<br>
-					<p><span class="negrita">•</span>	Reintroduciría el Nivolumab al normalizarse la función tiroidea e iría disminuyendo la dosis de corticoides.</p>
+					<p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p2"> Monitorizaría las hormonas tiroideas y controlaría estrictamente.</p>
+					<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p1"> Iniciaría Levotiroxina, continuaría el Nivolumab y controlaría estrictamente.</p>
+					<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p3"> Iniciaría Levotiroxina, pararía el Nivolumab y controlaría estrictamente.</p>
+					<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p4"> Reintroduciría el Nivolumab al normalizarse la función tiroidea.</p>
+					<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p5"> Iniciaría Levotiroxina, pararía el Nivolumab, iniciaría corticoterapia y controlaría estrictamente.</p>
+					<br><p onclick="this.style.color='#397be5'"><input type="radio" name="pregunta1" id="p6"> Reintroduciría el Nivolumab al normalizarse la función tiroidea e iría disminuyendo la dosis de corticoides.</p>
+					</form>
+
+
+					<div class="pregunta wow fadeIn" data-wow-duration="1s">
+						<a href="#"><img onclick="resultado();return false;" src="images/profesora.png" alt="" height="90px"></a>
+					</div>
+
+
+						<div id="flotante" style="display:none;">
+
+
+							<br><br><h2>¡Correcto!</h2>
+							<br>
+							<h2>La decisión terapéutica acertada sería<span class="negrita">:</span></h2>
+							<br>
+							<br>
+							<p><span class="negrita">•</span> Se orientó como un hipotiroidismo grado 2 tras una fase de tirotoxicosis silente.</p>
+							<br>
+							<p><span class="negrita">•</span> Se determinaron los anticuerpos antitiroglobulina > 1000 U/Ml (0- 9.9 U/ml), antiTPO 344.8 U/Ml (0-5.9 U/mL), lo cual sugería un hipotiroidismo primario.</p>
+							<br><p><span class="negrita">•</span> Se inició Levotiroxina y se continuó Nivolumab.</p>
+							<br><p><span class="negrita">•</span> A las 8 semanas, la TSH disminuyó a 5,54 mlU/mL con T4 libre normal y a las 27 semanas la TSH ya mostraba niveles normales (2.32 mlU/mL).</p>
+							<br><p><span class="negrita">•</span> La paciente continúa en tratamiento con Nivolumab tras 9 meses de tratamiento, con respuesta completa pulmonar.</p>
+
+
+
+						</div>
+						<div id="flotanteIncorrecto" style="display:none;">
+							<br><br>
+							<h2>No es correcto. Inténtalo de nuevo :)</h2>
+
+						</div>
+
 
 					</div>
+
+
+
+
+
 
 			</div>
 		</div>
@@ -338,30 +381,6 @@
 		</div>
 	</section>
 
-	<section class="counterUp">
-		<div class="counter_overlay">
-			<div class="container">
-				<div class="row">
-					<div class="main_counter_content text-center">
-						<div class="col-md-12 col-sm-12 col-xs-12">
-							<img src="images/medicinas.png" alt="" height="40px">
-
-							<br><br><h2>Decisión terapéutica <span class="negrita">:</span></h2>
-							<br>
-							<br>
-							<p><span class="negrita">•</span> Se orientó como un hipotiroidismo grado 2 tras una fase de tirotoxicosis silente.</p>
-							<br>
-							<p><span class="negrita">•</span> Se determinaron los anticuerpos antitiroglobulina > 1000 U/Ml (0- 9.9 U/ml), antiTPO 344.8 U/Ml (0-5.9 U/mL), lo cual sugería un hipotiroidismo primario.</p>
-							<br><p><span class="negrita">•</span> Se inició Levotiroxina y se continuó Nivolumab.</p>
-							<br><p><span class="negrita">•</span> A las 8 semanas, la TSH disminuyó a 5,54 mlU/mL con T4 libre normal y a las 27 semanas la TSH ya mostraba niveles normales (2.32 mlU/mL).</p>
-						  <br><p><span class="negrita">•</span> La paciente continúa en tratamiento con Nivolumab tras 9 meses de tratamiento, con respuesta completa pulmonar.</p>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<section class="texto">
 		<div class="container">
@@ -397,14 +416,17 @@
 							<br>
 							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> El paciente inicia Nivolumab 3 mg/kg cada 2 semanas.</p>
 
-							<br><br>
+							<br>
+							<br>
+							<img src="images/medicinas.png" alt="" height="40px">
+							<br>
 							<p><span class="negrita">Respuesta parcial tras 8 ciclos:</span></p>
 							<br>
-							<p class="izquierda">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ingresa en planta de hospitalización con astenia grado 2 de una </p>
+							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Ingresa en planta de hospitalización con astenia grado 2 de una </p>
 							<br>
-							<p class="izquierda">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp semana de evoluciónn, anorexia, ppérdida de peso y dolores articulares</p>
+							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> semana de evolución, anorexia, ppérdida de peso y dolores articulares</p>
 							<br>
-							<p class="izquierda">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Analítica: creatinina 1,78 mg/dl, ionograma normal, TSH 3,9, cortisol 0,1 microgramos /dl</p>
+							<p class="izquierda"><span class="decorado">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Analítica: creatinina 1,78 mg/dl, ionograma normal, TSH 3,9, cortisol 0,1 microgramos /dl</p>
 
 						</div>
 					</div>
@@ -748,6 +770,7 @@
 
 	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
 
+	<script type="text/javascript" src="js/test.js"></script>
 
 
 
