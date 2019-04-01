@@ -23,9 +23,12 @@ function cerrarIncorrecto() {
 function resultado() {
         var p1;
 
-
         if (document.getElementById('p1').checked==true) {cerrarIncorrecto(), mostrar()}
         else {cerrar(), mostrarIncorrecto()}
-
-
         }
+
+
+function mostrarB() {
+        div = document.getElementById('flotanteB');
+        div.style.display = '';
+                }
