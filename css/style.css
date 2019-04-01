@@ -55,7 +55,6 @@ VERDE constraste= #21CFAC
 NEGRO= #1A1A1A
 gris claro= ##f2f2f2
 AZUL claro= #3B86FF
-rojo= #F53158
 *
 * ======================================================= */
 
@@ -168,6 +167,7 @@ h2 {
 	line-height: 38px;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 
 h3 {
@@ -583,6 +583,46 @@ p::selection {
 	border-radius:4px;
 	background: #ddd;
 }
+
+
+
+
+
+.pregunta{
+	margin-top:40px;
+	padding:30px;
+	border-radius:4px;
+	transition:.6s;
+}
+.pregunta:hover{
+	background: #21CFAC;
+	color: #f2f2f2;
+}
+.pregunta:hover .single_left_icon i{
+	background: #f2f2f2;
+	color:#21CFAC;
+}
+.pregunta:hover .single_right_text h4{
+	color: #f2f2f2;
+}
+
+.pregunta:hover .separator2{
+	border-bottom: 3px solid #f2f2f2;
+}
+.preguntaActivo{
+	margin-top:40px;
+	border:2px solid #ddd;
+	padding:30px;
+	border-radius:4px;
+	background: #ddd;
+}
+
+
+
+
+
+
+
 .marco{
 	border:2px solid #ddd;
 	padding-top: 30px;
@@ -652,7 +692,7 @@ p::selection {
 }
 .counter_overlay{
 	padding:100px 0px;
-	background-color: rgba(245, 49, 88, .3);
+	background-color: rgba(245, 49, 88, .0);
 	color: #fff;
 }
 .counter_overlay p{
@@ -836,9 +876,9 @@ p::selection {
     margin-left: 30%;
 }
 
-/* franja Section */
+/* franja sección */
 .franja{
-	background: url(../images/bannerbg.jpg) no-repeat top center;
+	background-image: linear-gradient(to bottom left, #21CFAC, #351B9E);
 	background-size: cover;
 }
 .overlay_franja{
@@ -865,7 +905,7 @@ p::selection {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* mixitup section */
+/* mixitup sección */
 
 
 .main_mixi_content{
@@ -923,51 +963,8 @@ p::selection {
 
 
 
-/* Subcribs Section */
 
-.subcribs{
-	background:url(../images/subcribecebg.jpg) no-repeat top center;
-	background-size:cover;
-}
-.main_subcribs_content{
-}
-.single_subcribs h4{
-	font-size:20px;
-	font-weight:500;
-	color:#fff;
-}
-.single_subcribs p{
-  font-size: 16px;
-  font-weight: 300;
-  color: #fff;
-  line-height: 25px;
-}
-.single_subcribs_right{
-	margin-top: 50px;
-}
-.single_subcribs_right input[type="text"]{
-	border: 1px solid #fff;
-  height: 50px;
-  padding: 5px 10px;
-  background: none;
-  color: #fff;
-  font-weight: 300;
-  font-size: 12px;
-	width:60%;
-}
-.single_subcribs_right input[type="submit"]{
-  border: 1px solid #fff;
-  background: none;
-  height: 50px;
-  margin-left: -5px;
-  color: #fff;
-	font-weight:600;
-  font-size:12px;
-	width:20%;
-	outline: none;
-}
-
-/* texto Section */
+/* texto sección */
 
 .texto{
 	padding:80px 0px;
@@ -1029,7 +1026,7 @@ p::selection {
     margin-top: 20px;
 }
 
-/* testimonial section */
+/* testimonial sección */
 .testimonial{
 	background-image: linear-gradient(to bottom left, #21CFAC, #351B9E);
 	background-size: cover;
@@ -1057,6 +1054,7 @@ p::selection {
 .single_testimonial_img p{
   width: 55%;
   margin: 0 auto;
+	text-align: center;
   margin-bottom: 30px;
 	color:#fff;
 
@@ -1074,7 +1072,7 @@ p::selection {
     background: #351B9E;
     border: 1px solid #351B9E;
 }
-/* Blog Section */
+/* Blog sección */
 .main_blog{}
 .single_blog{
 	position:relative;
@@ -1112,7 +1110,7 @@ p::selection {
 }
 
 
-/* Footer Section */
+/* Footer sección */
 
 .footer{
 	background:#21CFAC;
@@ -1187,8 +1185,10 @@ p::selection {
 	color: #f2f2f2;
 }
 .vikhi-tabla p {
-	font-size: 14px;
 	text-align: left;
+}
+.vikhi-tabla tr th p{
+	color: #f2f2f2;
 }
 .tabla-borde {
   border-bottom: 1px solid #D3D3D3;
@@ -1198,3 +1198,29 @@ p::selection {
 .vikhi-tabla tr:nth-child(even){background-color: #fff;}
 
 .vikhi-tabla tr:hover {background-color: #ddd;}
+
+.vikhi-tablaSM {
+  border-collapse: collapse;
+  width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.vikhi-tablaSM td, .vikhi-tablaSM th {
+  border: 0px solid #ddd;
+  padding: 5px;
+}
+.vikhi-tablaSM th {
+  background-color: #351B9E;
+	color: #f2f2f2;
+}
+.vikhi-tablaSM p {
+	text-align: left;
+	font-size: 14px;
+}
+.vikhi-tablaSM tr th p{
+	color: #f2f2f2;
+}
+.vikhi-tablaSM tr:nth-child(even){background-color: #fff;}
+
+.vikhi-tablaSM tr:hover {background-color: #ddd;}
